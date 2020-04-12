@@ -1,29 +1,19 @@
 ---
 layout: post
-title:  "Jekyll&gitpage"
+title:  "hello blog"
 date:   2020-04-08 16:57:21 +0800
-categories: jekyll
+categories: blog
+tags: jekyll,git_page,markdown
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+写博客最快的开始方式有很多,申请账号就可以直接开始.  
+[知乎](https://www.zhihu.com/)  
+[博客园](https://www.cnblogs.com/)  
+[微博](https://www.weibo.com/)  
 
-Jekyll requires blog post files to be named according to the following format:
+如果希望自己管理博客,使用GitHub Pages,免费,快速,门槛低.
 
-`YEAR-MONTH-DAY-title.MARKUP`
-
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+#第一步创建GitHub Pages site#  
+Create repo创建一个新repo,名称格式username.github.io,username为自己git账号的username.**(普通账号repo必须public)**  
+创建完成,在repo的setting页面找到GitHub Pages相关设置,可以看到  
+   Your site is published at https://username.github.io/  
+点击链接,可以看到博客已经成功发布,可以访问了.
