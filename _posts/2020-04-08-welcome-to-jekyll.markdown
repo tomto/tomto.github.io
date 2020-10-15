@@ -5,7 +5,7 @@ date:   2020-04-08 16:57:21 +0800
 categories: blog
 tags: jekyll,git_page,markdown
 ---
-写博客的方式有很多,申请账号就可以直接开始.  
+写博客的平台有很多.  
 [知乎](https://www.zhihu.com/)  
 [博客园](https://www.cnblogs.com/)  
 [微博](https://www.weibo.com/)  
@@ -33,4 +33,14 @@ Create repo:
 {% endhighlight %}  
 
 # 搭建博客工具
-如果希望搭建功能完整的bolg.比如这样[阮一峰](http://www.ruanyifeng.com/blog/),那可以用静态博客工具[Jekyll](http://jekyllcn.com/),这是GitHub推荐的工具.同样好用的还有[Hugo](https://www.gohugo.org/),[gridea](https://gridea.dev/).如果使用Jekyll.需要安装ruby环境.
+如果希望搭建功能完整的bolg.比如这样[阮一峰](http://www.ruanyifeng.com/blog/),那可以用静态博客工具[Jekyll](http://jekyllcn.com/),这是GitHub推荐的工具.同样好用的还有[Hugo](https://www.gohugo.org/),[gridea](https://gridea.dev/).如果使用Jekyll.需要安装ruby环境.   
+
+Jekyll安装需要ruby环境  
+ - 第一步安装[Ruby installer](https://rubyinstaller.org/)
+ - 第二步安装[RubyGems](https://rubygems.org/pages/download),解压后目录执行命令 ruby setup.rb
+ - 然后就可以安装Jekyll了:gem install jekyll
+
+ Jekyll使用     
+ jekyll new testblog    
+ jekyll server  
+ 如果报错版本不一致需要使用: bundle exec jekyll server  
